@@ -21,10 +21,10 @@
 
             label = "Base";
             bindings = <
-&kp TAB     &kp Q  &kp W  &kp E     &kp R                       &kp T              &kp Y        &kp U        &kp I      &kp O    &kp P     &kp GRAVE
-&kp ESCAPE  &kp A  &kp S  &kp D     &kp F                       &kp G              &kp H        &kp J        &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT   &kp Z  &kp X  &kp C     &kp V                       &kp B              &kp N        &kp M        &kp COMMA  &kp DOT  &kp FSLH  &mo 3
-                          &kp LGUI  &mt LEFT_CONTROL BACKSPACE  &lt 2 BACKSPACE    &lt 2 SPACE  &lt 1 ENTER  &kp RALT
+&kp TAB       &kp Q  &kp W  &kp E             &kp R                         &kp T              &kp Y        &kp U        &kp I               &kp O    &kp P     &kp GRAVE
+&kp ESCAPE    &kp A  &kp S  &kp D             &kp F                         &kp G              &kp H        &kp J        &kp K               &kp L    &kp SEMI  &kp SQT
+&kp LEFT_GUI  &kp Z  &kp X  &kp C             &kp V                         &kp B              &kp N        &kp M        &kp COMMA           &kp DOT  &kp FSLH  &mo 3
+                            &kp LEFT_CONTROL  &mt LEFT_SHIFT LC(BACKSPACE)  &lt 2 BACKSPACE    &lt 2 SPACE  &lt 1 SPACE  &mt LEFT_ALT ENTER
             >;
         };
 
@@ -37,10 +37,10 @@
 
             label = "Lower";
             bindings = <
-&none   &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans        &trans    &kp HOME  &trans  &trans     &trans  &trans
-&none   &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans    &kp END   &trans  &trans     &trans  &trans
-                                    &trans        &trans        &trans        &trans    &trans    &trans
+&none      &trans        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans        &trans    &kp HOME  &trans  &trans     &kp LG(TAB)  &kp LS(LG(TAB))
+&kp ENTER  &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp LA(TAB)  &kp LA(LS(TAB))
+&trans     &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans    &kp END   &trans  &trans     &trans       &trans
+                                       &trans        &trans        &trans        &trans    &trans    &trans
             >;
         };
 
