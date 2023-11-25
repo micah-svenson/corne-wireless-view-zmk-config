@@ -51,10 +51,10 @@
 
             label = "Lower";
             bindings = <
-&none       &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp DOLLAR               &kp EXCLAMATION  &kp PERCENT     &kp STAR   &kp LPAR  &kp RPAR   &kp GRAVE
-&kp RETURN  &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp SLASH                &kp MINUS        &kp PLUS        &kp LBKT   &kp RBKT  &kp COLON  &kp TILDE
-&sl 2       &kp PERIOD    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp STAR                 &kp HASH         &kp AT          &kp LBRC   &kp RBRC  &kp PIPE   &kp AMPERSAND
-                                        &kp TAB       &kp LA(SPACE)  &kp LC(LA(BACKSPACE))    &kp KP_EQUAL     &kp UNDERSCORE  &kp CARET
+&none       &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DOLLAR               &kp EXCLAMATION  &kp PERCENT     &kp STAR   &kp LPAR  &kp RPAR   &kp GRAVE
+&kp RETURN  &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH                &kp MINUS        &kp PLUS        &kp LBKT   &kp RBKT  &kp COLON  &kp TILDE
+&sl 2       &kp PERIOD    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp STAR                 &kp HASH         &kp AT          &kp LBRC   &kp RBRC  &kp PIPE   &kp AMPERSAND
+                                        &trans        &trans        &kp LC(LA(BACKSPACE))    &kp KP_EQUAL     &kp UNDERSCORE  &kp CARET
             >;
         };
 
